@@ -1,0 +1,156 @@
+#oval-pic {
+  width: 200px;       
+  height: 300px;     
+  object-fit: cover; 
+  border-radius: 50%; 
+  border: 2px solid #2C303E; 
+  display: flex;
+  align-self: flex-start;
+  alignment-baseline: left;
+
+}
+
+#body{
+   background-color: blanchedalmond;
+   display: flex;
+   flex-direction: column;
+
+
+}
+
+#header {
+  background-color: #1B1F2A;
+  text-align: center;       
+  padding: 20px;            
+  color: #fff;          
+  
+}
+
+#header h1,
+#header h2,
+#header h3 {
+  font-weight: 400;         
+  letter-spacing: 1px;      
+  margin: 0;                
+}
+
+.tagline{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(1, 96, 109);
+}
+
+
+main {
+  gap: 40px;                 
+  padding: 40px 10%;
+  
+  
+  
+ 
+  
+}
+#intro{
+  display: flex;
+  align-items: start;      
+  justify-content: left;   
+  gap: 40px;                  
+  padding: 40px 10%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 12px; /* soft rounded edges */
+  box-shadow: 
+    0 6px 30px rgba(27, 31, 42, 0.55),   /* Deep base shadow */
+    0 10px 45px rgba(25, 25, 112, 0.45); /* Midnight blue highlight */
+  transition: box-shadow 0.3s ease;
+  margin: 40px auto;
+  max-width: 1700px;
+
+   
+  
+}
+#Let’s-Build-the-Future-Together{
+    min-height: 27vh;
+}
+#academic-career{
+    min-height: 17vh;
+}
+#tech-stack, #academic-career, #Let’s-Build-the-Future-Together{
+  border-radius: 12px; /* soft rounded edges */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  transition: box-shadow 0.3s ease;
+  margin: 40px auto;
+  max-width: 1900px; 
+  box-shadow: 
+    0 6px 30px rgba(27, 31, 42, 0.55),   /* Deep base shadow */
+    0 10px 45px rgba(25, 25, 112, 0.45); /* Midnight blue highlight */
+  transition: box-shadow 0.3s ease;
+ 
+
+}
+
+#About\ me {
+  max-width: 600px;
+  text-align: left;
+}
+
+#About\ me h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.letter-size, #About\ me p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+#tech-stack-header, #academic-header, #future-header{
+    font-size: 1.8rem;
+}
+
+.social-icon-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 80px;       
+  height: 80px;
+  fill: #034583;     
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.social-icon-link:hover .social-icon {
+  fill: #005582;     
+  transform: scale(1.1);
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+h3{
+    background-color:#2C303E ;
+}
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+  }
+
+  #oval-pic {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;      
+    margin-bottom: 20px;
+  }
+
+  #About\ me {
+    max-width: 90%;
+  }
+}
