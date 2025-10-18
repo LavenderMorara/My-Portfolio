@@ -134,6 +134,7 @@ main {
 }
 h3{
     background-color:#2C303E ;
+    color: white;
 }
 @media (max-width: 768px) {
   main {
